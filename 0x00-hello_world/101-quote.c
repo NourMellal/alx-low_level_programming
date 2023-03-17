@@ -1,6 +1,6 @@
 /*
  * File: 101-quote.c
- * Auth: moamineayadi
+ * Auth: NourMellal
  */
 #include <unistd.h>
 /**
