@@ -1,31 +1,28 @@
-#include "main.h"
+/*
+ * File: 8-24_hours.c
+ * Auth: Brennan D Baraban
+ */
 
+#include "holberton.h"
 
-	/**
-	 * jack_bauer - prints every minute of the day of Jack Bauer
-	 * starting from 00:00 to 23:59
-	 */
-	void jack_bauer(void)
+/**
+ * jack_bauer - Prints every minute of the day of
+ *              Jack Bauer, starting from 00:00 to 23:59.
+ */
+void jack_bauer(void)
+{
+	int hour, minute;
+
+	for (hour = 0; hour <= 23; hour++)
 	{
-		int i, j;
-
-
-		i = 0;
-
-
-		while (i < 24)
+		for (minute = 0; minute <= 59; minute++)
 		{
-			j = 0;
-			while (j < 60)
-			{
-				_putchar((i / 10) + '0');
-				_putchar((i % 10) + '0');
-				_putchar(':');
-				_putchar((j / 10) + '0');
-				_putchar((j % 10) + '0');
-				_putchar('\n');
-				j++;
-			}
-			i++;
+			_putchar((hour / 10) + '0');
+			_putchar((hour % 10) + '0');
+			_putchar(':');
+			_putchar((minute / 10) + '0');
+			_putchar((minute % 10) + '0');
+			_putchar('\n');
 		}
 	}
+}
