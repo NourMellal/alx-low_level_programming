@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _putchar - functionc parametr
+ * _isupper - functionc parametr
  *@c :parameter
  * Return: Always 0.
  */
@@ -9,9 +9,7 @@
 int _isupper(int c)
 {
 	if (c >= 'A' &&  c <= 'Z')
-	
 		return (1);
-	else
+		else
 			return (0);
-	
 }
