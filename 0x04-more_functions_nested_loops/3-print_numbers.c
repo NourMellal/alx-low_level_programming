@@ -9,6 +9,7 @@
 void print_numbers(void)
 {
 	int c;
+
 	for (c >= 48; c <= 57; c++)
 	{
 		_putchar (c % 10 + 48);
