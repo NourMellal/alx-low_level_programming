@@ -11,7 +11,7 @@
 	if (int c >= 'A' && int c <= 'Z')
 	{
 		return (1);
-		else
+	else
 			return (0);
 	}
  }
