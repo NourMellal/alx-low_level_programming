@@ -1,6 +1,6 @@
 /*
  * File: 9-fizz_buzz.c
- * Auth: Brennan D Baraban
+ * Auth: MELLALnour
  */
 
 #include <stdio.h>
