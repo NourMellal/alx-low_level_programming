@@ -1,9 +1,9 @@
 /*
  * File: 101-print_number.c
- * Auth: Brennan D Baraban
+ * Auth: NourMELLAL
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_number - Prints an integer.
