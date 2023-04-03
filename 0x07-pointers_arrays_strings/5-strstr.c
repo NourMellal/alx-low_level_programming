@@ -10,8 +10,7 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	haystack = 0;
-	for (haystack = 0; *haystack != '\0'; haystack++)
+	for (; *haystack != '\0'; haystack++)
 	{
 		char *one = haystack;
 		char *two = needle;
