@@ -1,10 +1,11 @@
 #include "main.h"
 
-int prime(int n; int i);
+int prime(int n, int i);
 /**
-* is_prime_number - says if an integer is a prime number or not 
+* is_prime_number - says if an integer is a prime number or not
 * @n: number to
-
+*
+* Return: 1 if n is a prime number , 0 if not
 */
 
 
