@@ -1,5 +1,11 @@
-#ifndef MYLIB_H
-#define MYLIB_H
+#ifndef FILE_MAIN
+#define FILE_MAIN
+
+#include <stdio.h>
+#include <unistd.h>
+#include <string.h>
+#include <stdlib.h>
+#include <math.h>
 
 
 int _putchar(char c);
