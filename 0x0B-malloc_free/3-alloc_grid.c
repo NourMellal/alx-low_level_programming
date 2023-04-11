@@ -33,5 +33,12 @@ for (hgt_index = 0; hgt_index < height; hgt_index++)
 		return (NULL);
 	}
 }
+
+for (hgt_index = 0; hgt_index < height; hgt_index++)
+{
+	for (wid_index = 0; wid_index < width; wid_index++)
+		twod[hgt_index][wid_index] = 0;
+}
 return (twod);
+
 }
