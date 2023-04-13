@@ -12,21 +12,22 @@
  * the allocation fails or min > max
  */
 int *array_range(int min, int max)
-
 {
-	int size, *arr, i;
+	int size, i;
+	int *ptr;
 
 	if (min > max)
 		return (NULL);
 
 	size = max - min + 1;
 
-	arr = malloc(sizeof(int) * size);
+	ptr = malloc(sizeof(int) * size);
 
-	if (arr == NULL)
+	if (ptr == NULL)
 		return (NULL);
-	for (i = 0; i < size; i++)
-		arr[i] = min++;
 
-	return (arr);
+	for (i = 0; min <= max; i++)
+		ptr[i] = min++;
+
+	return (ptr);
 }
