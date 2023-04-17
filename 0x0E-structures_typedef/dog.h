@@ -11,7 +11,7 @@
  * to hold information about individual dogs in a program. The structure is
  * defined using three members: a character pointer for the name, a float for
  * the age, and another character pointer for the owner.
- */	
+ */
 struct dog
 {
 	char *name;
