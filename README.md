@@ -1,5 +1,4 @@
 ![image](https://user-images.githubusercontent.com/125572104/232678680-7fb1e7e8-db56-4780-89b9-af70b083e467.png)
-![Alt text for your GIF](gif/0660efe82fa3da42ed56eef013171835.gif)
 <div align="center">
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWRhZTA4ZTEyODdmMzM3YTU1OTliNTI3MzlhNzAyYTUwMDMzNzMwYyZjdD1n/fcb4t3uXsoWOB8rO45/giphy.gif" width="480" height="270" frameBorder="0" allowFullScreen>
 </div>
