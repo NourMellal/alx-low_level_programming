@@ -3,8 +3,7 @@
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWRhZTA4ZTEyODdmMzM3YTU1OTliNTI3MzlhNzAyYTUwMDMzNzMwYyZjdD1n/fcb4t3uXsoWOB8rO45/giphy.gif" width="480" height="270" frameBorder="0" allowFullScreen>
 </div>
 
-<iframe src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWRhZTA4ZTEyODdmMzM3YTU1OTliNTI3MzlhNzAyYTUwMDMzNzMwYyZjdD1n/fcb4t3uXsoWOB8rO45/giphy.gif" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen autoplay></iframe>
-
+<iframe src="https://giphy.com/embed/fcb4t3uXsoWOB8rO45" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fcb4t3uXsoWOB8rO45">via GIPHY</a></p>
 
 # This ```alx``` repository has too many C projects and other low level exercices.
 
