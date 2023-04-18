@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/125572104/232678680-7fb1e7e8-db56-4780-89b9-af70b083e467.png)
 
-<iframe src="https://giphy.com/embed/fcb4t3uXsoWOB8rO45" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fcb4t3uXsoWOB8rO45">via GIPHY</a></p>
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/fcb4t3uXsoWOB8rO45" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/fcb4t3uXsoWOB8rO45">via GIPHY</a></p>
 
 # This ```alx``` repository has too many C projects and other low level exercices.
 
