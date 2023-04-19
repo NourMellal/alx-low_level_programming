@@ -12,6 +12,10 @@
  * comparison function returns a non-zero value for an element, the index of
  * that element is returned. If the integer is not found, the function returns
  * -1. If either the array or cmp pointer is NULL, the function returns -1.
+ *
+ * Return: the index of the first element for which the comparison function
+ *         does not return 0, or -1 if no such element is found or if the
+ *         array or cmp pointer is NULL
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
