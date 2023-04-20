@@ -1,4 +1,3 @@
-Sure, here's an example of a README file for a directory:
 
 # 0x10-variadic_functions
 
