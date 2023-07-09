@@ -1,13 +1,13 @@
 #include "hash_tables.h"
 
-/*
-Function name: hash_table_set
-Description: The function hash_table_set adds or updates the value of a key in a hash table.
-Parameters:
-    - ht: the hash table to be manipulated
-    - key: the key to be added or updated
-    - value: the value to be associated with the key
-Return: Returns 1 if successful, 0 if an error occurred
+/**
+* hash_table_set - Description: The function hash_table_set adds or
+* updates the value of a key in a hash table.
+* Parameters:
+*    @ht: the hash table to be manipulated
+*    @key: the key to be added or updated
+*    @value: the value to be associated with the key
+* Return: Returns 1 if successful, 0 if an error occurred
 */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
@@ -21,7 +21,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	idx = key_index((const unsigned char *)key, size);
 
 
-	if(ht->array[idx] != NULL || strcmp(ht->array[idx]->key, key) == 0)
+	if (ht->array[idx] != NULL || strcmp(ht->array[idx]->key, key) == 0)
 	{
 		ht->array[idx]->value = strdup(value);
 		return (1);
