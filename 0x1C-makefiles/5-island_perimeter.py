@@ -1,32 +1,40 @@
-#!/usr/bin/python3
-""" Defines function island_perim..."""
+#!usr/bin/python3
+""" Define island perimetre function"""
 
 
 def island_perimeter(grid):
     """
-        Finde perimeter in an island
+    Calculate the perimeter of an island in the grid using DFS.
     """
+    rows = len(grid)
+    cols = len(grid[0])
     v = set()
 
     def dfs(i, j):
         """
         dfs algorithm to find the perimitre and stores the visited island
         """
-        if i >= len(grid) or j >= len(grid[0]) or \
-           i < 0 or j < 0 or grid[i][j] == 0:
+        if i < 0 or i >= rows or j < 0 or j >= cols or grid[i][j] == 0:
             return 1
 
         if (i, j) in v:
             return 0
 
         v.add((i, j))
-        perm = dfs(i, j + 1)
-        perm += dfs(i + 1, j)
-        perm += dfs(i, j - 1)
-        perm += dfs(i - 1, j)
-        return perm
+        perimeter = 0
 
-    for i in range(len(grid)):
-        for j in range(len(grid[0])):
-            if grid[i][j]:
-                return (dfs(i, j))
+        perimeter += dfs(i, j + 1)
+        perimeter += dfs(i + 1, j)
+        perimeter += dfs(i, j - 1)
+        perimeter += dfs(i - 1, j)
+
+        return perimeter
+
+    total_perimeter = 0
+
+    for i in range(rows):
+        for j in range(cols):
+            if grid[i][j] == 1:
+                total_perimeter += dfs(i, j)
+
+    return total_perimeter
